@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>6B1235FA-657F-40DF-919C-8E074CAA318A</string>
+=======
+	<string>D0D7BC30-EDDD-44B3-B8F1-A3F8DE62D76F</string>
+>>>>>>> f4554d9358fd6c7a44de7f136ef7035ec093f3c2
 	<key>IDESourceControlProjectName</key>
 	<string>mrmouse</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>A2E2EC38-0BA9-4982-B85D-E045818E79CF</key>
+=======
+		<key>572FEB44-E101-4260-990F-4EC8C8A2E7DC</key>
+>>>>>>> f4554d9358fd6c7a44de7f136ef7035ec093f3c2
 		<string>https://github.com/Kappibw/mrmouse.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>mrmouse.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>A2E2EC38-0BA9-4982-B85D-E045818E79CF</key>
+=======
+		<key>572FEB44-E101-4260-990F-4EC8C8A2E7DC</key>
+>>>>>>> f4554d9358fd6c7a44de7f136ef7035ec093f3c2
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +37,22 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>A2E2EC38-0BA9-4982-B85D-E045818E79CF</string>
+=======
+	<string>572FEB44-E101-4260-990F-4EC8C8A2E7DC</string>
+>>>>>>> f4554d9358fd6c7a44de7f136ef7035ec093f3c2
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>A2E2EC38-0BA9-4982-B85D-E045818E79CF</string>
+=======
+			<string>572FEB44-E101-4260-990F-4EC8C8A2E7DC</string>
+>>>>>>> f4554d9358fd6c7a44de7f136ef7035ec093f3c2
 			<key>IDESourceControlWCCName</key>
 			<string>mrmouse</string>
 		</dict>
