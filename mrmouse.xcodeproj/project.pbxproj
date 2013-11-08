@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31200897182C702E003C2FE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31200896182C702E003C2FE7 /* UIKit.framework */; };
+		31200899182C702E003C2FE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31200898182C702E003C2FE7 /* Foundation.framework */; };
+		3120089B182C702E003C2FE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3120089A182C702E003C2FE7 /* CoreGraphics.framework */; };
+		312008A1182C702E003C2FE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3120089F182C702E003C2FE7 /* InfoPlist.strings */; };
+		312008A3182C702E003C2FE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 312008A2182C702E003C2FE7 /* main.m */; };
+		312008A7182C702E003C2FE7 /* mlkjrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 312008A6182C702E003C2FE7 /* mlkjrAppDelegate.m */; };
+		312008A9182C702E003C2FE7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 312008A8182C702E003C2FE7 /* Default.png */; };
+		312008AB182C702E003C2FE7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312008AA182C702E003C2FE7 /* Default@2x.png */; };
+		312008AD182C702E003C2FE7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 312008AC182C702E003C2FE7 /* Default-568h@2x.png */; };
+		312008B0182C702E003C2FE7 /* mlkjrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312008AF182C702E003C2FE7 /* mlkjrViewController.m */; };
+		312008B3182C702E003C2FE7 /* mlkjrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 312008B1182C702E003C2FE7 /* mlkjrViewController.xib */; };
+		312008BB182C702E003C2FE7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312008BA182C702E003C2FE7 /* SenTestingKit.framework */; };
+		312008BC182C702E003C2FE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31200896182C702E003C2FE7 /* UIKit.framework */; };
+		312008BD182C702E003C2FE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31200898182C702E003C2FE7 /* Foundation.framework */; };
+		312008C5182C702E003C2FE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 312008C3182C702E003C2FE7 /* InfoPlist.strings */; };
+		312008C8182C702E003C2FE7 /* mrmouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 312008C7182C702E003C2FE7 /* mrmouseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		312008BE182C702E003C2FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3120088B182C702E003C2FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31200892182C702E003C2FE7;
+			remoteInfo = mrmouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31200893182C702E003C2FE7 /* mrmouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mrmouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31200896182C702E003C2FE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31200898182C702E003C2FE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3120089A182C702E003C2FE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3120089E182C702E003C2FE7 /* mrmouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mrmouse-Info.plist"; sourceTree = "<group>"; };
+		312008A0182C702E003C2FE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		312008A2182C702E003C2FE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		312008A4182C702E003C2FE7 /* mrmouse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mrmouse-Prefix.pch"; sourceTree = "<group>"; };
+		312008A5182C702E003C2FE7 /* mlkjrAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mlkjrAppDelegate.h; sourceTree = "<group>"; };
+		312008A6182C702E003C2FE7 /* mlkjrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mlkjrAppDelegate.m; sourceTree = "<group>"; };
+		312008A8182C702E003C2FE7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		312008AA182C702E003C2FE7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		312008AC182C702E003C2FE7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		312008AE182C702E003C2FE7 /* mlkjrViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mlkjrViewController.h; sourceTree = "<group>"; };
+		312008AF182C702E003C2FE7 /* mlkjrViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mlkjrViewController.m; sourceTree = "<group>"; };
+		312008B2182C702E003C2FE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/mlkjrViewController.xib; sourceTree = "<group>"; };
+		312008B9182C702E003C2FE7 /* mrmouseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mrmouseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		312008BA182C702E003C2FE7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		312008C2182C702E003C2FE7 /* mrmouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mrmouseTests-Info.plist"; sourceTree = "<group>"; };
+		312008C4182C702E003C2FE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		312008C6182C702E003C2FE7 /* mrmouseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mrmouseTests.h; sourceTree = "<group>"; };
+		312008C7182C702E003C2FE7 /* mrmouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mrmouseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31200890182C702E003C2FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31200897182C702E003C2FE7 /* UIKit.framework in Frameworks */,
+				31200899182C702E003C2FE7 /* Foundation.framework in Frameworks */,
+				3120089B182C702E003C2FE7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312008B5182C702E003C2FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312008BB182C702E003C2FE7 /* SenTestingKit.framework in Frameworks */,
+				312008BC182C702E003C2FE7 /* UIKit.framework in Frameworks */,
+				312008BD182C702E003C2FE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3120088A182C702E003C2FE7 = {
+			isa = PBXGroup;
+			children = (
+				3120089C182C702E003C2FE7 /* mrmouse */,
+				312008C0182C702E003C2FE7 /* mrmouseTests */,
+				31200895182C702E003C2FE7 /* Frameworks */,
+				31200894182C702E003C2FE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31200894182C702E003C2FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31200893182C702E003C2FE7 /* mrmouse.app */,
+				312008B9182C702E003C2FE7 /* mrmouseTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31200895182C702E003C2FE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31200896182C702E003C2FE7 /* UIKit.framework */,
+				31200898182C702E003C2FE7 /* Foundation.framework */,
+				3120089A182C702E003C2FE7 /* CoreGraphics.framework */,
+				312008BA182C702E003C2FE7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3120089C182C702E003C2FE7 /* mrmouse */ = {
+			isa = PBXGroup;
+			children = (
+				312008A5182C702E003C2FE7 /* mlkjrAppDelegate.h */,
+				312008A6182C702E003C2FE7 /* mlkjrAppDelegate.m */,
+				312008AE182C702E003C2FE7 /* mlkjrViewController.h */,
+				312008AF182C702E003C2FE7 /* mlkjrViewController.m */,
+				312008B1182C702E003C2FE7 /* mlkjrViewController.xib */,
+				3120089D182C702E003C2FE7 /* Supporting Files */,
+			);
+			path = mrmouse;
+			sourceTree = "<group>";
+		};
+		3120089D182C702E003C2FE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3120089E182C702E003C2FE7 /* mrmouse-Info.plist */,
+				3120089F182C702E003C2FE7 /* InfoPlist.strings */,
+				312008A2182C702E003C2FE7 /* main.m */,
+				312008A4182C702E003C2FE7 /* mrmouse-Prefix.pch */,
+				312008A8182C702E003C2FE7 /* Default.png */,
+				312008AA182C702E003C2FE7 /* Default@2x.png */,
+				312008AC182C702E003C2FE7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		312008C0182C702E003C2FE7 /* mrmouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				312008C6182C702E003C2FE7 /* mrmouseTests.h */,
+				312008C7182C702E003C2FE7 /* mrmouseTests.m */,
+				312008C1182C702E003C2FE7 /* Supporting Files */,
+			);
+			path = mrmouseTests;
+			sourceTree = "<group>";
+		};
+		312008C1182C702E003C2FE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				312008C2182C702E003C2FE7 /* mrmouseTests-Info.plist */,
+				312008C3182C702E003C2FE7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31200892182C702E003C2FE7 /* mrmouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312008CB182C702E003C2FE7 /* Build configuration list for PBXNativeTarget "mrmouse" */;
+			buildPhases = (
+				3120088F182C702E003C2FE7 /* Sources */,
+				31200890182C702E003C2FE7 /* Frameworks */,
+				31200891182C702E003C2FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mrmouse;
+			productName = mrmouse;
+			productReference = 31200893182C702E003C2FE7 /* mrmouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		312008B8182C702E003C2FE7 /* mrmouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312008CE182C702E003C2FE7 /* Build configuration list for PBXNativeTarget "mrmouseTests" */;
+			buildPhases = (
+				312008B4182C702E003C2FE7 /* Sources */,
+				312008B5182C702E003C2FE7 /* Frameworks */,
+				312008B6182C702E003C2FE7 /* Resources */,
+				312008B7182C702E003C2FE7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312008BF182C702E003C2FE7 /* PBXTargetDependency */,
+			);
+			name = mrmouseTests;
+			productName = mrmouseTests;
+			productReference = 312008B9182C702E003C2FE7 /* mrmouseTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3120088B182C702E003C2FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = mlkjr;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Katharine Patterson";
+			};
+			buildConfigurationList = 3120088E182C702E003C2FE7 /* Build configuration list for PBXProject "mrmouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3120088A182C702E003C2FE7;
+			productRefGroup = 31200894182C702E003C2FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31200892182C702E003C2FE7 /* mrmouse */,
+				312008B8182C702E003C2FE7 /* mrmouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31200891182C702E003C2FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312008A1182C702E003C2FE7 /* InfoPlist.strings in Resources */,
+				312008A9182C702E003C2FE7 /* Default.png in Resources */,
+				312008AB182C702E003C2FE7 /* Default@2x.png in Resources */,
+				312008AD182C702E003C2FE7 /* Default-568h@2x.png in Resources */,
+				312008B3182C702E003C2FE7 /* mlkjrViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312008B6182C702E003C2FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312008C5182C702E003C2FE7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		312008B7182C702E003C2FE7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3120088F182C702E003C2FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312008A3182C702E003C2FE7 /* main.m in Sources */,
+				312008A7182C702E003C2FE7 /* mlkjrAppDelegate.m in Sources */,
+				312008B0182C702E003C2FE7 /* mlkjrViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312008B4182C702E003C2FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312008C8182C702E003C2FE7 /* mrmouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		312008BF182C702E003C2FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31200892182C702E003C2FE7 /* mrmouse */;
+			targetProxy = 312008BE182C702E003C2FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3120089F182C702E003C2FE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				312008A0182C702E003C2FE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		312008B1182C702E003C2FE7 /* mlkjrViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				312008B2182C702E003C2FE7 /* en */,
+			);
+			name = mlkjrViewController.xib;
+			sourceTree = "<group>";
+		};
+		312008C3182C702E003C2FE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				312008C4182C702E003C2FE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		312008C9182C702E003C2FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		312008CA182C702E003C2FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		312008CC182C702E003C2FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mrmouse/mrmouse-Prefix.pch";
+				INFOPLIST_FILE = "mrmouse/mrmouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		312008CD182C702E003C2FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mrmouse/mrmouse-Prefix.pch";
+				INFOPLIST_FILE = "mrmouse/mrmouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		312008CF182C702E003C2FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mrmouse.app/mrmouse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mrmouse/mrmouse-Prefix.pch";
+				INFOPLIST_FILE = "mrmouseTests/mrmouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		312008D0182C702E003C2FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mrmouse.app/mrmouse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mrmouse/mrmouse-Prefix.pch";
+				INFOPLIST_FILE = "mrmouseTests/mrmouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3120088E182C702E003C2FE7 /* Build configuration list for PBXProject "mrmouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312008C9182C702E003C2FE7 /* Debug */,
+				312008CA182C702E003C2FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312008CB182C702E003C2FE7 /* Build configuration list for PBXNativeTarget "mrmouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312008CC182C702E003C2FE7 /* Debug */,
+				312008CD182C702E003C2FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		312008CE182C702E003C2FE7 /* Build configuration list for PBXNativeTarget "mrmouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312008CF182C702E003C2FE7 /* Debug */,
+				312008D0182C702E003C2FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3120088B182C702E003C2FE7 /* Project object */;
+}
