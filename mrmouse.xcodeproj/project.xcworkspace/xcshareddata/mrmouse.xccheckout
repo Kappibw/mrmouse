@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A270906C-0B03-4A7C-A2C4-24EE0A8789DA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mrmouse</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>572FEB44-E101-4260-990F-4EC8C8A2E7DC</key>
+		<string>https://github.com/Kappibw/mrmouse.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mrmouse.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>572FEB44-E101-4260-990F-4EC8C8A2E7DC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Kappibw/mrmouse.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>572FEB44-E101-4260-990F-4EC8C8A2E7DC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>572FEB44-E101-4260-990F-4EC8C8A2E7DC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mrmouse</string>
+		</dict>
+	</array>
+</dict>
+</plist>
