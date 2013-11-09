@@ -20,3 +20,5 @@ DerivedData
 *.hmap
 *.xccheckout
 *.xcuserstate
+
+*.xcuserstate
