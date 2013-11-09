@@ -19,3 +19,4 @@ DerivedData
 .idea/
 *.hmap
 *.xccheckout
+*.xcuserstate
